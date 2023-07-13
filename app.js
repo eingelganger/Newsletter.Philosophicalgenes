@@ -31,7 +31,7 @@
 // //     const url= "https://us9.api.mailchimp.com/3.0/lists/cc1ac45261";
 // //     const options= {
 // //         method: "POST",
-// //         auth: "Abhijeetv:45fcb092dd6c8b7fa75abe56bf8301e8-us9"
+// //         auth: "Abhijeetv:21853c022832c5e1679519d0c069a2b6-us9"
 // //     };
     
 // //     const request= https.request(url, options, function(response){
@@ -66,7 +66,7 @@
 //     const url= "https://us9.api.mailchimp.com/3.0/lists/cc1ac45261";
 //     const options= {
 //         method: "POST",
-//         auth: "Abhijeetv:45fcb092dd6c8b7fa75abe56bf8301e8-us9"
+//         auth: "Abhijeetv:21853c022832c5e1679519d0c069a2b6-us9"
 //     }
     
 //     const request= https.request(url, options, function(response){
@@ -85,7 +85,7 @@
 //     console.log("Server is running on port 3000.");
 // });
 
-// //45fcb092dd6c8b7fa75abe56bf8301e8-us9
+// //21853c022832c5e1679519d0c069a2b6-us9
 
 // //uid cc1ac45261
 
@@ -123,7 +123,7 @@ app.post("/", function(req, res) {
   const url = "https://us9.api.mailchimp.com/3.0/lists/cc1ac45261";
   const options = {
     method: "POST",
-    auth: "Abhijeetv:45fcb092dd6c8b7fa75abe56bf8301e8-us9"
+    auth: "Abhijeetv:21853c022832c5e1679519d0c069a2b6-us9"
   };
 
   const request = https.request(url, options, function(response) {
